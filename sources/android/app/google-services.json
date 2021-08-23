@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "864867958834",
+    "project_id": "webtoon-manga",
+    "storage_bucket": "webtoon-manga.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:864867958834:android:aeb617ae0ee01c9ef73c2b",
+        "android_client_info": {
+          "package_name": "com.example.sources"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "864867958834-5ilsd3uib4srtsrsnntv6hdiigmtiadf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBb_VOFhJtcVwxtbBVt1T5sbmr5jGK4z4o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "864867958834-5ilsd3uib4srtsrsnntv6hdiigmtiadf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

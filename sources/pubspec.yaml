@@ -23,6 +23,10 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  cloud_firestore: ^2.4.0
+  firebase_auth: ^3.0.1
+  google_fonts: ^2.0.0
+  provider: ^5.0.0
 
 
   # The following adds the Cupertino Icons font to your application.
@@ -74,3 +78,21 @@ flutter:
   #
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/custom-fonts/#from-packages
+  fonts:
+    - family: Indie Flower
+      fonts:
+        - asset: assets/fonts/IndieFlower.ttf
+    - family: Pacifico
+      fonts:
+        - asset: assets/fonts/Pacifico.ttf
+
+  assets:
+    - assets/images/logo.png
+    - assets/images/logo2.png
+    - assets/images/test.jpg
+    - assets/images/test2.jpg
+    - assets/images/test3.jpg
+    - assets/images/test4.jpg
+    - assets/images/test5.jpg
+    - assets/images/test6.jpg
+    - assets/images/logo3.png
