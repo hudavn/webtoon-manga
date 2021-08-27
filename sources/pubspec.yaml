@@ -1,4 +1,4 @@
-name: sources
+name: manga
 description: A new Flutter project.
 
 # The following line prevents the package from being accidentally published to
@@ -21,6 +21,7 @@ environment:
   sdk: ">=2.12.0 <3.0.0"
 
 dependencies:
+  web_scraper:
   flutter:
     sdk: flutter
 
@@ -45,8 +46,12 @@ flutter:
   uses-material-design: true
 
   # To add assets to your application, add an assets section, like this:
-  # assets:
-  #   - images/a_dot_burr.jpeg
+  assets:
+    - assets/3.png
+    - assets/1.png
+    - assets/2.jpg
+    - assets/4.jpg
+    - assets/5.png
   #   - images/a_dot_ham.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see

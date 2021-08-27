@@ -1,4 +1,4 @@
-# sources
+# manga
 
 A new Flutter project.
 
