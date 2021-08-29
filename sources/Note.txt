@@ -1,0 +1,11 @@
+- pre_watching: màn hình pre 
+  + animation_sub.dart: hiện ứng subscribe
+  + pre_watching: màn hình chinh pre
+  + sub_per
+    - chapter.dart: list các chapter
+    - introduce.dart: khung giới thiệu truyện
+- read: màn hình đọc
+  + animation_like.dart: hiệu ứng like #chưa điều hướng được
+  + home_bottom.dart: thanh bottom phía dưới
+  + submit_comment.dart: điều hướng sang màn hình khác để comment #chưa điều hướng được
+  + watching.dart: màn hình chính để đọc

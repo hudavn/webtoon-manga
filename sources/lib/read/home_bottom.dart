@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-// import 'package:manga/read/animation_like.dart';
-// import 'package:manga/read/submit_comment.dart';
+
 
 class HomeBottomRead extends StatefulWidget{
   const HomeBottomRead({Key? key}) : super(key: key);
@@ -8,12 +7,14 @@ class HomeBottomRead extends StatefulWidget{
   State<HomeBottomRead> createState() => HomeBottom();
 }
 
-class HomeBottom extends State<HomeBottomRead> {
+class HomeBottom extends State<HomeBottomRead>{
 
   @override
   Widget build(BuildContext context) {
 
+
     return BottomNavigationBar(
+      //backgroundColor: Colors.white,
       iconSize: 30,
       unselectedFontSize: 20,
       selectedFontSize: 15,
@@ -41,6 +42,7 @@ class HomeBottom extends State<HomeBottomRead> {
           backgroundColor: Colors.black,
         )
       ],
+
     );
   }
 }

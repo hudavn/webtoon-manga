@@ -18,10 +18,10 @@ class Introduce extends StatelessWidget{
                 padding: EdgeInsets.only(top: size.height * .12, left: size.width * .1, right: size.width * .02),
                 height: size.height * .35,
                 decoration: BoxDecoration(
-                  // image: DecorationImage(
-                  //   image: AssetImage("assets/3.png"),
-                  //   fit: BoxFit.fitWidth,
-                  // ),
+                  image: DecorationImage(
+                    image: AssetImage("assets/3.png"),
+                    fit: BoxFit.fitWidth,
+                  ),
                 ),
                 child: Padding(
                   padding: EdgeInsets.only(left: 0, top: 0, right: 150),
@@ -29,18 +29,18 @@ class Introduce extends StatelessWidget{
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: <Widget>[
 
-                      // Text(
-                      //   "Romantic",
-                      //   style: TextStyle(color: Colors.white, fontSize: 15, fontWeight: FontWeight.w900),
-                      // ),
-                      // Text(
-                      //   "YOUR NAME",
-                      //   style: TextStyle(color: Colors.white, fontSize: 20, fontWeight: FontWeight.w900),
-                      // ),
-                      // Text(
-                      //   "Time travel and soul swap ...\n",
-                      //   style: TextStyle(color: Colors.white, fontSize: 12, fontWeight: FontWeight.w500),
-                      // ),
+                      Text(
+                        "Romantic",
+                        style: TextStyle(color: Colors.white, fontSize: 15, fontWeight: FontWeight.w900),
+                      ),
+                      Text(
+                        "YOUR NAME",
+                        style: TextStyle(color: Colors.white, fontSize: 20, fontWeight: FontWeight.w900),
+                      ),
+                      Text(
+                        "Time travel and soul swap ...\n",
+                        style: TextStyle(color: Colors.white, fontSize: 12, fontWeight: FontWeight.w500),
+                      ),
                       Row(
                         children: <Widget>[
                           Column(
