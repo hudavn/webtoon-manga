@@ -6,7 +6,7 @@
     - RoundedButton.dart : tạo nút login
     - TextfieldContainer : tạo ra một form Container sử dụng cho điền email và password
 ## Signup
-+ SignupPage: trang đăng kí
++ SignupPage.dart: trang đăng kí
 + components:
    - SignupNowbutton.dart : tạo nút 'sign up now'
    - TermsAndPolicy : tạo dòng text của terms of use and privacy policy .... và điều hướng đến trang 2 trang đó.
