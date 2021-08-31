@@ -1,8 +1,10 @@
 
 import 'package:flutter/material.dart';
+import 'package:sources/Page/PrivacyPolicy/PolicyPage.dart';
 import 'package:sources/Page/Signup/components/SignupNowbutton.dart';
 import 'package:sources/Page/Signup/components/TextContainer.dart';
 import 'package:sources/Page/Signup/components/TermsAndPolicy.dart';
+import 'package:sources/Page/TermOfUse/TermsPage.dart';
 
 class dataSignup extends StrutStyle {
   String? emailAdd;
@@ -170,8 +172,18 @@ class SignupPage extends StatelessWidget {
                 ),
               ),
               TermsPolicy(
-                pressTerms: (){},
-                pressPolicy: (){},
+                pressTerms: (){
+                  Navigator.push(context,
+                      MaterialPageRoute(builder: (context) {
+                        return TermsPage();
+                      }));
+                },
+                pressPolicy: (){
+                  Navigator.push(context,
+                      MaterialPageRoute(builder: (context) {
+                        return PolicyPage();
+                      }));
+                },
               ),
               SignupNowButton(
                 press: (){
