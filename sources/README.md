@@ -1,6 +1,6 @@
 # sources
 ## Login:
-  +LoginPage.dart : trang login
+  + LoginPage.dart : trang login
   + components:
     - Rounded_InputFiled.dart: sử dụng form của TextfieldContainer với thuộc tính child là textfield.
     - RoundedButton.dart : tạo nút login
